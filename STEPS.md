@@ -1,0 +1,4 @@
+- [x] Boilerplate (React Vite, TypeScript, ESLint, Prettier, Styled-Components, React Router)
+- [x] Paybrokers Design (font, colors, favicon)
+- [x] Template Pages (SignUp, Dashboard, Products)
+- [x] AuthContext with authentication redirects

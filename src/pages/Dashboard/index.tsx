@@ -1,0 +1,19 @@
+import React, { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
+
+import { useAuthContext } from '../../contexts'
+import * as S from './styles'
+
+export const Dashboard: React.FC = () => {
+  const { isAuthenticated } = useAuthContext()
+  const navigate = useNavigate()
+
+  // Auth redirect
+  useEffect(() => {
+    if (isAuthenticated) return
+
+    navigate('/signup')
+  })
+
+  return <S.Container>DASHBOARD</S.Container>
+}

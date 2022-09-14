@@ -1,0 +1,66 @@
+{
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "jest": true
+    },
+    "extends": [
+      "plugin:react/recommended",
+      "standard",
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react",
+      "@typescript-eslint",
+      "eslint-plugin-import-helpers",
+      "better-styled-components",
+      "prettier"
+    ],
+    "rules": {
+      "@typescript-eslint/consistent-type-definitions": "off",
+      "@typescript-eslint/strict-boolean-expressions": "off",
+      "@typescript-eslint/no-floating-promises": "off",
+      "@typescript-eslint/comma-spacing": "off",
+      "@typescript-eslint/return-await": "off",
+      "@typescript-eslint/no-namespace": "off",
+      "no-useless-constructor": "off",
+      "n/no-path-concat": "off",
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": ["error"],
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-var-requires": "off",
+      "no-redeclare": "off",
+      "prettier/prettier": ["error"],
+      "space-before-function-paren": "off",
+      "react/prop-types": "off",
+      "react/react-in-jsx-scope": "off",
+      "better-styled-components/sort-declarations-alphabetically": "error",
+      "import-helpers/order-imports": [
+        "warn",
+        { // example configuration
+          "newlinesBetween": "always", // new line between groups
+          "groups": [
+            "module",
+            "/^@shared/",
+            ["parent", "sibling", "index"]
+          ],
+          "alphabetize": { "order": "asc", "ignoreCase": true }
+        }
+      ]
+    }
+  }
+  
