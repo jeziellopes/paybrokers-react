@@ -704,19 +704,6 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@typeform/embed-react@^1.18.0":
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/@typeform/embed-react/-/embed-react-1.20.0.tgz#4523f45e344eb2b7d0fc3d0c70484d1d9cdce43b"
-  integrity sha512-IJUo+LrINMoWrPriGmSARnNq5HVh4v0bju+wOzgavnBAWtbPBOyo8J9ekz42uPFDsGEnb2w8tS1wJUe3labsdg==
-  dependencies:
-    "@typeform/embed" "1.37.1"
-    fast-deep-equal "^3.1.3"
-
-"@typeform/embed@1.37.1":
-  version "1.37.1"
-  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-1.37.1.tgz#f1d2dfe7199ca6d22d862a59107c953583fc069f"
-  integrity sha512-CE/4HxyCGqaoi+P8XvZA6Uzy+Ob6SBsSTseFkpZDLkOp+sy5Nbr17yqAJbn4fPi1BXeYK7jkg8+PGBEbxdeUCw==
-
 "@types/babel__core@^7.1.14":
   version "7.1.19"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.19.tgz#7b497495b7d1b4812bdb9d02804d0576f43ee460"
@@ -823,11 +810,6 @@
   integrity sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==
   dependencies:
     "@types/react" "*"
-
-"@types/react-gtm-module@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@types/react-gtm-module/-/react-gtm-module-2.0.1.tgz#b2c6cd14ec251d6ae7fa576edf1d43825908a378"
-  integrity sha512-T/DN9gAbCYk5wJ1nxf4pSwmXz4d1iVjM++OoG+mwMfz9STMAotGjSb65gJHOS5bPvl6vLSsJnuC+y/43OQrltg==
 
 "@types/react@*", "@types/react@^18.0.0":
   version "18.0.20"
@@ -1269,11 +1251,6 @@ cliui@^7.0.2:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
-
-clsx@^1.1.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
-  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
 co@^4.6.0:
   version "4.6.0"
@@ -3262,11 +3239,6 @@ react-dom@^18.0.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-ga@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.3.1.tgz#d8e1f4e05ec55ed6ff944dcb14b99011dfaf9504"
-  integrity sha512-4Vc0W5EvXAXUN/wWyxvsAKDLLgtJ3oLmhYYssx+YzphJpejtOst6cbIHCIyF50Fdxuf5DDKqRYny24yJ2y7GFQ==
-
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -3295,13 +3267,6 @@ react-router@6.4.0:
   integrity sha512-B+5bEXFlgR1XUdHYR6P94g299SjrfCBMmEDJNcFbpAyRH1j1748yt9NdDhW3++nw1lk3zQJ6aOO66zUx3KlTZg==
   dependencies:
     "@remix-run/router" "1.0.0"
-
-react-toastify@^9.0.8:
-  version "9.0.8"
-  resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-9.0.8.tgz#3876c89fc6211a29027b3075010b5ec39ebe4f7e"
-  integrity sha512-EwM+teWt49HSHx+67qI08yLAW1zAsBxCXLCsUfxHYv1W7/R3ZLhrqKalh7j+kjgPna1h5LQMSMwns4tB4ww2yQ==
-  dependencies:
-    clsx "^1.1.1"
 
 react@^18.0.0:
   version "18.2.0"

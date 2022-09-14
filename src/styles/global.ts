@@ -1,10 +1,13 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
   html, body, #root {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: #fff;
+    background-color: transparent;
     height: 100%;
     margin: 0;
     text-rendering: optimizeLegibility;
@@ -17,21 +20,28 @@ export default createGlobalStyle`
     font-family: "AQUAWAX Medium";
   }
 
-@font-face {
-  font-family: 'AQUAWAX Light';
-  src: url('../fonts/Aquawax Light Trial.ttf') format('truetype');
-  font-display: fallback;
-}
+  @font-face {
+    font-family: 'AQUAWAX Light';
+    src: url('../fonts/Aquawax Light Trial.ttf') format('truetype');
+    font-display: fallback;
+  }
 
-@font-face {
-  font-family: 'AQUAWAX Medium';
-  src: url('../fonts/Aquawax Medium Trial.ttf') format('truetype');
-  font-display: fallback;
-}
+  @font-face {
+    font-family: 'AQUAWAX Medium';
+    src: url('../fonts/Aquawax Medium Trial.ttf') format('truetype');
+    font-display: fallback;
+  }
 
   @font-face {
     font-family: 'AQUAWAX Black';
     src: url('../fonts/Aquawax Black Trial.ttf') format('truetype');
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: 'FiraCodeRetina';
+    src: local('FiraCodeRetina'),
+      url('../fonts/FiraCode-Retina.otf') format('opentype');
     font-display: fallback;
   }
 

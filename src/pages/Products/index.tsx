@@ -12,7 +12,7 @@ export const Products = () => {
   useEffect(() => {
     if (isAuthenticated) return
 
-    navigate('/signup')
+    navigate('/sign-in')
   })
 
   return <S.Container>PRODUCTS</S.Container>

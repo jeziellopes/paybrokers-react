@@ -12,7 +12,7 @@ export const Dashboard: React.FC = () => {
   useEffect(() => {
     if (isAuthenticated) return
 
-    navigate('/signup')
+    navigate('/sign-in')
   })
 
   return <S.Container>DASHBOARD</S.Container>

@@ -7,8 +7,14 @@ export type BaseProps = {
   width?: number
 }
 
-export type ThemeProps = {
-  theme: DefaultTheme
+export type ButtonProps = {
+  label?: string
+  children?: React.ReactNode
+  onClick?: () => void
 }
 
-export type Props = BaseProps & ThemeProps
+export type ThemeProps = {
+  theme?: DefaultTheme
+}
+
+export type Props = BaseProps & ButtonProps & ThemeProps
