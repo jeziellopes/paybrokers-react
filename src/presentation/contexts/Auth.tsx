@@ -22,6 +22,7 @@ export const AuthProvider = ({ children }: T.Props) => {
   const [isAuthenticated, setIsAuthenticated] = useState(
     sessionAuth.checkAuth()
   )
+
   const logout = () => {
     setLoading(true)
     sessionAuth.logout()
