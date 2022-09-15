@@ -12,8 +12,8 @@ export const ComposeProviders = ({
   return (
     <>
       {Providers.reduce(
-        (AccProviders, Provider) => (
-          <Provider>{AccProviders}</Provider>
+        (ComposedProviders, ParentProvider) => (
+          <ParentProvider>{ComposedProviders}</ParentProvider>
         ),
         children
       )}
