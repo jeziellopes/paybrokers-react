@@ -3,10 +3,12 @@ export const theme = {
     main: {
       background: '#FFF',
       primary: '#55bcb6',
+      primaryLight: '#5cc4bd',
       secondary: '#03365c',
       text: '#002846',
       placeholder: '#888',
       buttonText: '#FFF',
+      lightWhite: '#FFF',
     },
   },
   shadows: {

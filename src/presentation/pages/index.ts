@@ -1,4 +1,6 @@
-export * from './Dashboard'
-export * from './NotFound'
-export * from './Products'
-export * from './SignIn'
+import Dashboard from './Dashboard'
+import { NotFound } from './NotFound'
+import Products from './Products'
+import { SignIn } from './SignIn'
+
+export { Dashboard, NotFound, Products, SignIn }

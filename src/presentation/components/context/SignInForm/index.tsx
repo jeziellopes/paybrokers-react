@@ -1,3 +1,4 @@
+import { logoUrl } from '@presentation/assets'
 import { useAuthContext } from '@presentation/contexts'
 import React from 'react'
 
@@ -15,7 +16,7 @@ const SignInForm: React.FC = () => {
   return (
     <S.Form onSubmit={handleSubmit}>
       <S.Row>
-        <S.Logo src="https://www.paybrokers.com.br/uploads/Grupo%2037.png" />
+        <S.Logo src={logoUrl} />
       </S.Row>
       <CF.InputText placeholder="informe seu e-mail"></CF.InputText>
       <CF.InputText placeholder="informe sua senha"></CF.InputText>
