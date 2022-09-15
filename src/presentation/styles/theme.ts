@@ -16,6 +16,7 @@ export const theme = {
     primary: 'AQUAWAX Light',
     primaryMedium: 'AQUAWAX Medium',
     primaryBlack: 'AQUAWAX Black',
+    text: 'Roboto',
     input: 'Roboto',
   },
 }

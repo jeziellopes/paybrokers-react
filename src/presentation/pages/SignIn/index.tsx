@@ -1,23 +1,23 @@
-import React from 'react'
+import SignInForm from '@presentation/components/context/SignInForm'
+import { useAuthContext } from '@presentation/contexts'
+import React, { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
-import * as CF from '../../components/form'
-import * as CS from '../../components/structure'
 import * as S from './styles'
 
 export const SignIn: React.FC = () => {
+  const { loading, isAuthenticated } = useAuthContext()
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    if (!loading && isAuthenticated) {
+      navigate('/')
+    }
+  }, [loading, isAuthenticated])
+
   return (
     <S.Container>
-      <S.Form>
-        <S.Row>
-          <S.Logo src="https://www.paybrokers.com.br/uploads/Grupo%2037.png" />
-        </S.Row>
-        <CF.InputText placeholder="informe seu e-mail"></CF.InputText>
-        <CF.InputText placeholder="informe sua senha"></CF.InputText>
-        <CF.Link to="/sign-in">Esqueci a senha</CF.Link>
-        <S.ActionWrapper>
-          <CS.Button>Login</CS.Button>
-        </S.ActionWrapper>
-      </S.Form>
+      <SignInForm />
     </S.Container>
   )
 }

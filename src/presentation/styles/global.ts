@@ -7,7 +7,7 @@ export default createGlobalStyle`
   html, body, #root {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: transparent;
+    background-color: #fff;
     height: 100%;
     margin: 0;
     text-rendering: optimizeLegibility;

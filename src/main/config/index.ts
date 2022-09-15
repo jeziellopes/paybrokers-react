@@ -1,1 +1,1 @@
-export {}
+export const AUTH_KEY = 'PAYBROKERS_AUTH_KEY'
