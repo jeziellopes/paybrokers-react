@@ -1,5 +1,12 @@
 import { loadProducts } from '@presentation/useCases'
-import { createContext, useContext, useEffect, useMemo, useState } from 'react'
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from 'react'
 
 import * as T from '../types'
 import { Product } from '../types'
@@ -8,22 +15,27 @@ export type ProductsContextType = {
   error: boolean
   loading: boolean
   products: Product[] | null
+  selected: Product | null
   productQuantityByGroup: T.ProductQuantityByGroup[] | null
   onClickRemove: (id: string) => void
+  selectProduct: (id: string) => void
 }
 
 export const ProductsContext = createContext<ProductsContextType>({
   error: false,
   loading: false,
   products: null,
+  selected: null,
   productQuantityByGroup: null,
   onClickRemove: () => undefined,
+  selectProduct: () => undefined,
 })
 
 export const ProductsProvider = ({ children }: T.Props) => {
   const [error, setError] = useState(false)
   const [loading, setLoading] = useState(false)
   const [products, setProducts] = useState<Product[] | null>(null)
+  const [selected, setSelected] = useState<Product | null>(null)
 
   useEffect(() => {
     if (products) return
@@ -54,14 +66,22 @@ export const ProductsProvider = ({ children }: T.Props) => {
   const onClickRemove = (id: string) =>
     setProducts((prev) => prev?.filter((product) => product.id !== id) || [])
 
+  const selectProduct = useCallback(
+    (id: string) =>
+      setSelected(products?.find((product) => product.id === id) || null),
+    [products]
+  )
+
   return (
     <ProductsContext.Provider
       value={{
         error,
         loading,
         products,
+        selected,
         productQuantityByGroup,
         onClickRemove,
+        selectProduct,
       }}
     >
       {children}

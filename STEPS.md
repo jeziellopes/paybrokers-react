@@ -8,6 +8,7 @@
 - [x] Menu, Logout redirect
 - [x] Fake Products and Sells + Providers
 - [x] Recharts + Products and Sell Charts
-- [ ] List Products with table
-- [ ] Remove product action
-- [ ] Add product action
+- [x] List Products with table
+- [x] Remove product action
+- [x] View product action
+- [ ] Add new product feature

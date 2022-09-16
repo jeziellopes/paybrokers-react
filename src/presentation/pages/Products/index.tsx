@@ -1,5 +1,8 @@
-import { withLayout } from '@presentation/components/context/Layout'
-import { ProductsTable } from '@presentation/components/context/Products/ProdutsTable'
+import {
+  ViewProductModal,
+  withLayout,
+  ProductsTable,
+} from '@presentation/components/context'
 import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
@@ -20,6 +23,7 @@ export const Products = () => {
   return (
     <S.Container>
       <ProductsTable />
+      <ViewProductModal />
     </S.Container>
   )
 }
