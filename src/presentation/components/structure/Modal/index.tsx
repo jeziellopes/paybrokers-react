@@ -1,18 +1,17 @@
 import MuiModal from '@mui/material/Modal'
-import { useModalContext } from '@presentation/contexts'
 import * as React from 'react'
 
 type ModalProps = {
   children: React.ReactElement
+  isOpen: boolean
+  onClose: () => void
 }
 
-const Modal = ({ children }: ModalProps) => {
-  const { isOpen, handleClose } = useModalContext()
-
+const Modal = ({ children, isOpen, onClose }: ModalProps) => {
   return (
     <MuiModal
       open={isOpen}
-      onClose={handleClose}
+      onClose={onClose}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
     >

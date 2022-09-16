@@ -12,11 +12,12 @@ type ProductsActionsProps = {
 
 const ProductsActions = ({ params }: ProductsActionsProps) => {
   const { onClickRemove, selectProduct } = useProductsContext()
-  const { handleOpen: handleOpenModal } = useModalContext()
+  const { handleOpenViewProduct: handleOpenViewProductModal } =
+    useModalContext()
 
   const onClickDescription = (e: React.SyntheticEvent) => {
     e.stopPropagation()
-    handleOpenModal()
+    handleOpenViewProductModal()
     selectProduct(params.id.toString())
   }
 

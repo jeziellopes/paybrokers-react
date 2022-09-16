@@ -11,6 +11,7 @@ export type ButtonProps = {
   label?: string
   children?: React.ReactNode
   onClick?: () => void
+  type?: 'button' | 'submit' | 'reset'
 }
 
 export type ThemeProps = {

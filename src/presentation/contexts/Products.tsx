@@ -1,4 +1,5 @@
 import { loadProducts } from '@presentation/useCases'
+import { generateID } from '@presentation/utils/uuid'
 import {
   createContext,
   useCallback,
@@ -19,6 +20,8 @@ export type ProductsContextType = {
   productQuantityByGroup: T.ProductQuantityByGroup[] | null
   onClickRemove: (id: string) => void
   selectProduct: (id: string) => void
+  cleanUpSelectedProduct: () => void
+  addNewProduct: (product: Omit<Product, 'id' | 'createdAt'>) => void
 }
 
 export const ProductsContext = createContext<ProductsContextType>({
@@ -29,6 +32,8 @@ export const ProductsContext = createContext<ProductsContextType>({
   productQuantityByGroup: null,
   onClickRemove: () => undefined,
   selectProduct: () => undefined,
+  cleanUpSelectedProduct: () => undefined,
+  addNewProduct: () => undefined,
 })
 
 export const ProductsProvider = ({ children }: T.Props) => {
@@ -72,6 +77,19 @@ export const ProductsProvider = ({ children }: T.Props) => {
     [products]
   )
 
+  const cleanUpSelectedProduct = () => setSelected(null)
+
+  const addNewProduct = (product: T.NewProduct) => {
+    setProducts((prev) => [
+      ...(prev || []),
+      {
+        ...product,
+        id: generateID(),
+        createdAt: Date.now(),
+      },
+    ])
+  }
+
   return (
     <ProductsContext.Provider
       value={{
@@ -82,6 +100,8 @@ export const ProductsProvider = ({ children }: T.Props) => {
         productQuantityByGroup,
         onClickRemove,
         selectProduct,
+        cleanUpSelectedProduct,
+        addNewProduct,
       }}
     >
       {children}

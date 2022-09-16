@@ -11,3 +11,5 @@ export type ProductQuantityByGroup = {
   name: string
   quantidade: number
 }
+
+export type NewProduct = Omit<Product, 'id' | 'createdAt'>

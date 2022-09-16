@@ -3,30 +3,42 @@ import React, { createContext, useContext, useState } from 'react'
 import * as T from '../types'
 
 export type ModalContextType = {
-  isOpen: boolean
-  handleOpen: () => void
-  handleClose: () => void
+  isOpenViewProduct: boolean
+  isOpenNewProduct: boolean
+  handleOpenViewProduct: () => void
+  handleCloseViewProduct: () => void
+  handleOpenNewProduct: () => void
+  handleCloseNewProduct: () => void
 }
 
 export const ModalContext = createContext<ModalContextType>({
-  isOpen: false,
-  handleOpen: () => undefined,
-  handleClose: () => undefined,
+  isOpenViewProduct: false,
+  isOpenNewProduct: false,
+  handleOpenViewProduct: () => undefined,
+  handleCloseViewProduct: () => undefined,
+  handleOpenNewProduct: () => undefined,
+  handleCloseNewProduct: () => undefined,
 })
 
 export const ModalProvider = ({ children }: T.Props) => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpenViewProduct, setIsOpenViewProduct] = useState(false)
+  const [isOpenNewProduct, setIsOpenNewProduct] = useState(false)
 
-  const handleOpen = () => setIsOpen(true)
+  const handleOpenViewProduct = () => setIsOpenViewProduct(true)
+  const handleCloseViewProduct = () => setIsOpenViewProduct(false)
 
-  const handleClose = () => setIsOpen(false)
+  const handleOpenNewProduct = () => setIsOpenNewProduct(true)
+  const handleCloseNewProduct = () => setIsOpenNewProduct(false)
 
   return (
     <ModalContext.Provider
       value={{
-        isOpen,
-        handleOpen,
-        handleClose,
+        isOpenViewProduct,
+        isOpenNewProduct,
+        handleOpenViewProduct,
+        handleCloseViewProduct,
+        handleOpenNewProduct,
+        handleCloseNewProduct,
       }}
     >
       {children}

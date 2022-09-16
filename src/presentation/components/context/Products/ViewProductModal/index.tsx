@@ -1,8 +1,9 @@
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
-import { TextField } from '@presentation/components/structure'
 import Modal from '@presentation/components/structure/Modal'
-import { useProductsContext } from '@presentation/contexts'
+import { useModalContext, useProductsContext } from '@presentation/contexts'
+
+import * as S from './styles'
 
 const style = {
   position: 'absolute' as const,
@@ -17,22 +18,32 @@ const style = {
 }
 
 export const ViewProductModal: React.FC = () => {
-  const { selected } = useProductsContext()
+  const { selected, cleanUpSelectedProduct } = useProductsContext()
+  const { isOpenViewProduct, handleCloseViewProduct } = useModalContext()
 
   return (
     selected && (
-      <Modal>
+      <Modal
+        isOpen={isOpenViewProduct}
+        onClose={() => {
+          handleCloseViewProduct()
+          cleanUpSelectedProduct()
+        }}
+      >
         <Box sx={style}>
           <Typography>Detalhes do produto</Typography>
-          <TextField label="nome" value={selected?.name} disabled />
-          <TextField label="valor" value={selected?.price} disabled />
-          <TextField label="grupo" value={selected?.group} disabled />
-          <TextField
-            label="descrição"
-            value={selected?.description}
-            multiline
-            disabled
-          />
+
+          <S.Label>Nome</S.Label>
+          <S.InputText value={selected?.name} disabled />
+
+          <S.Label>Valor</S.Label>
+          <S.InputText value={selected?.price} disabled />
+
+          <S.Label>Grupo</S.Label>
+          <S.InputText value={selected?.group} disabled />
+
+          <S.Label>Descrição</S.Label>
+          <S.TextArea value={selected?.description} rows={8} disabled />
         </Box>
       </Modal>
     )
