@@ -1,7 +1,7 @@
 import { Sell } from '@domain/entities'
 
 export interface SellsLoader {
-  load: () => SellsLoader.Model[]
+  load: () => Promise<SellsLoader.Model[]>
 }
 
 export namespace SellsLoader {

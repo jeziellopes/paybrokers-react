@@ -5,3 +5,8 @@ export type Product = {
   group: string
   createdAt: number
 }
+
+export type ProductQuantityByGroup = {
+  name: string
+  quantidade: number
+}

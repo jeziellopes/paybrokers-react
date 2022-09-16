@@ -1,7 +1,7 @@
 import { Product } from '@domain/entities'
 
 export interface ProductsLoader {
-  load: () => ProductsLoader.Model[]
+  load: () => Promise<ProductsLoader.Model[]>
 }
 
 export namespace ProductsLoader {

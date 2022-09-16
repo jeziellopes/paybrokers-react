@@ -1,632 +1,402 @@
 [
   {
-    "id": "f05acf2a-a10e-48e2-b423-bbf7e47fea01",
-    "product": "Iced Tea Concentrate",
-    "description": "Diabetes mellitus due to underlying condition with diabetic macular edema, resolved following treatment, right eye",
-    "quantity": 4,
-    "sellDate": 1657719743000
+    "id": "9045f506-5b28-43c8-8dcd-717e06458122",
+    "name": "Hickory Smoke, Liquid",
+    "description": "Complete lesion at C5 level of cervical spinal cord",
+    "price": "$45.12",
+    "group": "Baby",
+    "createdAt": 1629429190000
+  },
+  {
+    "id": "70c36350-81e8-4755-9906-c8806abd773d",
+    "name": "Coffee - Cafe Moreno",
+    "description": "Excessive crying of child, adolescent or adult",
+    "price": "$0.67",
+    "group": "Games",
+    "createdAt": 1637123471000
+  },
+  {
+    "id": "1b028148-8290-45fb-9570-9a69a9cef002",
+    "name": "Coffee Decaf Colombian",
+    "description": "Injury of cutaneous sensory nerve at lower leg level, right leg",
+    "price": "$14.60",
+    "group": "Books",
+    "createdAt": 1641131324000
+  },
+  {
+    "id": "bd03a3f3-932d-42ee-b0c3-01f8ba745b47",
+    "name": "Wasabi Powder",
+    "description": "Person on outside of pick-up truck or van injured in collision with fixed or stationary object in traffic accident, initial encounter",
+    "price": "$47.22",
+    "group": "Computers",
+    "createdAt": 1645670555000
+  },
+  {
+    "id": "5397d127-93e0-4636-8a9d-c11dcf320a8f",
+    "name": "Garam Masala Powder",
+    "description": "Maternal care for other malpresentation of fetus",
+    "price": "$18.76",
+    "group": "Movies",
+    "createdAt": 1650922549000
+  },
+  {
+    "id": "746ccd0a-b2f9-4741-9702-1585dcc5eb37",
+    "name": "Wine - Red, Wolf Blass, Yellow",
+    "description": "Velo-cardio-facial syndrome",
+    "price": "$10.78",
+    "group": "Games",
+    "createdAt": 1647254989000
+  },
+  {
+    "id": "c760922d-76fb-455f-8822-3e1ad0be27b0",
+    "name": "Pork - Ham Hocks - Smoked",
+    "description": "Injury of cutaneous sensory nerve at shoulder and upper arm level, right arm, subsequent encounter",
+    "price": "$17.25",
+    "group": "Shoes",
+    "createdAt": 1646245543000
+  },
+  {
+    "id": "fc04bc4e-476e-49f8-9b69-acb3b263c1b0",
+    "name": "Sea Urchin",
+    "description": "Open bite of lip",
+    "price": "$24.89",
+    "group": "Automotive",
+    "createdAt": 1632968245000
+  },
+  {
+    "id": "7c447a34-7c2a-48ae-8e1c-70a49f200ebc",
+    "name": "Wine - Sicilia Igt Nero Avola",
+    "description": "Unspecified fracture of sternum, subsequent encounter for fracture with nonunion",
+    "price": "$8.57",
+    "group": "Outdoors",
+    "createdAt": 1653925577000
+  },
+  {
+    "id": "863567c1-2494-426b-b304-c8330907d45c",
+    "name": "Energy - Boo - Koo",
+    "description": "Non-pressure chronic ulcer of other part of left foot with fat layer exposed",
+    "price": "$17.53",
+    "group": "Books",
+    "createdAt": 1652355041000
+  },
+  {
+    "id": "dceeea10-9217-4c9d-9b76-8630a74ca745",
+    "name": "Peas Snow",
+    "description": "Nondisplaced bimalleolar fracture of unspecified lower leg, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion",
+    "price": "$37.54",
+    "group": "Industrial",
+    "createdAt": 1650076316000
+  },
+  {
+    "id": "9b0c476f-dfbc-4cc2-80ad-5d5ffe8d090d",
+    "name": "Flour - Strong Pizza",
+    "description": "Maternal care for Anti-A sensitization, third trimester",
+    "price": "$13.65",
+    "group": "Kids",
+    "createdAt": 1648414483000
+  },
+  {
+    "id": "ef652e69-0c91-4dd3-a388-d7dcebc5130d",
+    "name": "Sprite, Diet - 355ml",
+    "description": "Sprain of interphalangeal joint of other finger, initial encounter",
+    "price": "$17.03",
+    "group": "Garden",
+    "createdAt": 1626809730000
   },
   {
-    "id": "0c5b6531-d16c-4ed5-be25-0b072c860fae",
-    "product": "Initation Crab Meat",
-    "description": "Unspecified physeal fracture of upper end of right tibia, sequela",
-    "quantity": 3,
-    "sellDate": 1662733826000
+    "id": "fd931ed1-5a9a-4ca3-97fe-d65b60e098b4",
+    "name": "Asparagus - Mexican",
+    "description": "Nondisplaced fracture of neck of fifth metacarpal bone, right hand, initial encounter for closed fracture",
+    "price": "$43.75",
+    "group": "Beauty",
+    "createdAt": 1641628326000
   },
   {
-    "id": "25a033d3-0c70-4a01-8e6d-f418759e66d8",
-    "product": "Garbag Bags - Black",
-    "description": "Caught, crushed, jammed, or pinched between stationary objects",
-    "quantity": 8,
-    "sellDate": 1643572018000
+    "id": "69f02de0-b92a-4c24-b6ff-cd2596bf8e5f",
+    "name": "General Purpose Trigger",
+    "description": "Other fracture of third lumbar vertebra",
+    "price": "$39.19",
+    "group": "Clothing",
+    "createdAt": 1625289616000
   },
   {
-    "id": "2dc8b976-f7d8-4d5b-bfe8-625590a6c6e6",
-    "product": "Sugar - Monocystal / Rock",
-    "description": "Laceration of long flexor muscle, fascia and tendon of left thumb at wrist and hand level, subsequent encounter",
-    "quantity": 9,
-    "sellDate": 1640261367000
+    "id": "ad121e97-b0c3-4e09-9ae7-21c290ff75a1",
+    "name": "Chervil - Fresh",
+    "description": "Unspecified occupant of three-wheeled motor vehicle injured in collision with fixed or stationary object in nontraffic accident, initial encounter",
+    "price": "$40.62",
+    "group": "Shoes",
+    "createdAt": 1627355736000
   },
   {
-    "id": "a1517e93-9ba9-4fc3-b8d1-2caab665e0b6",
-    "product": "Garlic - Elephant",
-    "description": "Laceration without foreign body of unspecified breast, sequela",
-    "quantity": 8,
-    "sellDate": 1634218418000
+    "id": "28b81c65-7edd-48f0-a9bd-dc16d0b1c60f",
+    "name": "Coffee - Irish Cream",
+    "description": "Burn of unspecified degree of multiple sites of lower limb, except ankle and foot",
+    "price": "$45.52",
+    "group": "Music",
+    "createdAt": 1648304635000
   },
   {
-    "id": "27e0b221-d429-4f58-97a3-7b49d1788b63",
-    "product": "Wine - Red, Gallo, Merlot",
-    "description": "Other ocular manifestations of vitamin A deficiency",
-    "quantity": 10,
-    "sellDate": 1657538745000
+    "id": "0d594548-91e7-4120-b358-630f146fd015",
+    "name": "Artichokes - Jerusalem",
+    "description": "Postpartum mood disturbance",
+    "price": "$9.19",
+    "group": "Home",
+    "createdAt": 1651408844000
   },
   {
-    "id": "d6f9c85d-f51d-487d-a538-a07ea3be2c3a",
-    "product": "Muffin - Bran Ind Wrpd",
-    "description": "Displaced dome fracture of unspecified acetabulum, subsequent encounter for fracture with delayed healing",
-    "quantity": 1,
-    "sellDate": 1640786634000
+    "id": "363f6e75-0406-4cf1-9bec-254952359ee1",
+    "name": "Cheese - Gouda Smoked",
+    "description": "Strain of flexor muscle, fascia and tendon of left little finger at forearm level, subsequent encounter",
+    "price": "$34.49",
+    "group": "Computers",
+    "createdAt": 1641742276000
   },
   {
-    "id": "12400e92-a32c-474c-b530-feb9fede48ad",
-    "product": "Pasta - Spaghetti, Dry",
-    "description": "Anoxic brain damage, not elsewhere classified",
-    "quantity": 3,
-    "sellDate": 1644219623000
+    "id": "4c907e67-b570-4bd0-b845-7b8db09aad21",
+    "name": "Soy Protein",
+    "description": "Corrosion of second degree of unspecified upper arm, initial encounter",
+    "price": "$6.44",
+    "group": "Clothing",
+    "createdAt": 1647689178000
   },
   {
-    "id": "005bb2d4-d6a1-4213-b3f7-51521dce329b",
-    "product": "Soup - Tomato Mush. Florentine",
-    "description": "Pedestrian on foot injured in collision with two- or three-wheeled motor vehicle, unspecified whether traffic or nontraffic accident, subsequent encounter",
-    "quantity": 10,
-    "sellDate": 1647671426000
+    "id": "fccf159e-c0d5-403c-8728-944102ce3a65",
+    "name": "Wine - Malbec Trapiche Reserve",
+    "description": "Vascular headache, not elsewhere classified",
+    "price": "$24.80",
+    "group": "Outdoors",
+    "createdAt": 1639505490000
   },
   {
-    "id": "b62b9f8b-c4bf-4af1-864e-de74541644c6",
-    "product": "Venison - Striploin",
-    "description": "Age-related osteoporosis with current pathological fracture, right shoulder, subsequent encounter for fracture with delayed healing",
-    "quantity": 8,
-    "sellDate": 1646309860000
+    "id": "f17a971e-b150-4df1-ba8f-02419ca366f9",
+    "name": "Muffin Hinge 117n",
+    "description": "Other disorders of patella",
+    "price": "$9.23",
+    "group": "Shoes",
+    "createdAt": 1646748999000
   },
   {
-    "id": "8c4b0f4d-535a-4677-a79b-955f977bc8a9",
-    "product": "Beef - Tenderloin",
-    "description": "War operations involving destruction of aircraft due to enemy fire or explosives, military personnel, subsequent encounter",
-    "quantity": 6,
-    "sellDate": 1634995327000
+    "id": "41fe4844-2082-4c27-ace0-769b6561e410",
+    "name": "Tart Shells - Sweet, 4",
+    "description": "Abscess of Bartholin's gland",
+    "price": "$33.41",
+    "group": "Outdoors",
+    "createdAt": 1646505876000
   },
   {
-    "id": "a2791e7b-96cc-4f96-9400-98cdd1eca27a",
-    "product": "Salmon - Atlantic, No Skin",
-    "description": "Insect bite (nonvenomous) of unspecified wrist, subsequent encounter",
-    "quantity": 4,
-    "sellDate": 1647109234000
+    "id": "08d18835-b0a2-4096-a7bf-4290134478f2",
+    "name": "Dried Peach",
+    "description": "Injury of cutaneous sensory nerve at hip and high level, right leg, initial encounter",
+    "price": "$38.37",
+    "group": "Computers",
+    "createdAt": 1633155493000
   },
   {
-    "id": "d07b3780-3e38-4616-af73-86fc38c5ef83",
-    "product": "Shrimp - Black Tiger 16/20",
-    "description": "Collapsed vertebra, not elsewhere classified, site unspecified",
-    "quantity": 7,
-    "sellDate": 1660112197000
+    "id": "5402a268-6829-4638-91e1-f7f7e1106e34",
+    "name": "Appetizer - Mushroom Tart",
+    "description": "Atherosclerosis of autologous artery coronary artery bypass graft(s) with unspecified angina pectoris",
+    "price": "$39.73",
+    "group": "Music",
+    "createdAt": 1642617677000
   },
   {
-    "id": "24a50a35-ce86-45ce-a56a-f40bcf3956c0",
-    "product": "Beans - Yellow",
-    "description": "Toxic effect of cadmium and its compounds, assault, initial encounter",
-    "quantity": 1,
-    "sellDate": 1664330466000
+    "id": "51605412-5633-4217-aae3-b1430574cfd4",
+    "name": "Magnotta - Bel Paese White",
+    "description": "Underdosing of unspecified fibrinolysis-affecting drugs",
+    "price": "$46.90",
+    "group": "Automotive",
+    "createdAt": 1627227863000
   },
   {
-    "id": "bb672db2-027b-44a2-ade2-ab2c312b7343",
-    "product": "Longos - Lasagna Veg",
-    "description": "Ulcerative (chronic) rectosigmoiditis with complications",
-    "quantity": 7,
-    "sellDate": 1653685434000
+    "id": "781819de-fb21-4f99-8cc4-394c8d1d1efc",
+    "name": "Gherkin - Sour",
+    "description": "Unspecified injury of superior vena cava, sequela",
+    "price": "$40.87",
+    "group": "Sports",
+    "createdAt": 1651102295000
   },
   {
-    "id": "0dab3b2f-6c31-4872-b3b5-8310b6722cd8",
-    "product": "Beer - Corona",
-    "description": "Poisoning by, adverse effect of and underdosing of succinimides and oxazolidinediones",
-    "quantity": 7,
-    "sellDate": 1642822518000
+    "id": "9835b254-f2d7-4ae7-b367-d1f5eaf024b8",
+    "name": "Sunflower Seed Raw",
+    "description": "Adverse effect of antiviral drugs, subsequent encounter",
+    "price": "$0.84",
+    "group": "Books",
+    "createdAt": 1632172430000
   },
   {
-    "id": "6e32ea59-eafd-41c3-8ca5-97d355f2f909",
-    "product": "Garlic",
-    "description": "Abscess of breast associated with pregnancy, the puerperium and lactation",
-    "quantity": 6,
-    "sellDate": 1633360193000
+    "id": "64277f04-282b-4a02-9239-da75a4507e41",
+    "name": "Bread Crumbs - Japanese Style",
+    "description": "Poisoning by other laxatives, assault, sequela",
+    "price": "$2.77",
+    "group": "Shoes",
+    "createdAt": 1626847841000
   },
   {
-    "id": "0c5a5a24-3faf-49ce-845a-f127c36ad546",
-    "product": "Crackers - Water",
-    "description": "Corrosion of second degree of unspecified site of unspecified lower limb, except ankle and foot, initial encounter",
-    "quantity": 1,
-    "sellDate": 1655413634000
+    "id": "53e4cce8-1098-446d-b34f-1a92f56e7a02",
+    "name": "Iced Tea - Lemon, 340ml",
+    "description": "Non-follicular lymphoma",
+    "price": "$2.29",
+    "group": "Movies",
+    "createdAt": 1622714102000
   },
   {
-    "id": "ff6a97e0-3f66-4c31-9128-73d26d1f23f3",
-    "product": "Cheese - Parmesan Grated",
-    "description": "Laceration without foreign body of left index finger without damage to nail, sequela",
-    "quantity": 2,
-    "sellDate": 1650915371000
+    "id": "795328f8-3ab6-4b15-90ad-39071b073d8a",
+    "name": "Versatainer Nc - 9388",
+    "description": "Periprosthetic osteolysis of other internal prosthetic joint, subsequent encounter",
+    "price": "$26.15",
+    "group": "Sports",
+    "createdAt": 1624381804000
   },
   {
-    "id": "d1b85564-686c-4aeb-b991-765eddace648",
-    "product": "Glass Clear 8 Oz",
-    "description": "Displaced fracture of distal phalanx of right little finger, subsequent encounter for fracture with nonunion",
-    "quantity": 7,
-    "sellDate": 1655226502000
+    "id": "0e587823-ea4d-4a46-8256-948f9f383304",
+    "name": "Lobster - Tail, 3 - 4 Oz",
+    "description": "External constriction, right great toe, sequela",
+    "price": "$33.47",
+    "group": "Kids",
+    "createdAt": 1633813950000
   },
   {
-    "id": "78eec4be-5223-49b4-a4be-2e7a91fb05bc",
-    "product": "Kiwano",
-    "description": "Puncture wound without foreign body of unspecified external genital organs, female, sequela",
-    "quantity": 9,
-    "sellDate": 1653808693000
+    "id": "1f0b0dd8-446e-4b13-9c2a-af30b95ccaaf",
+    "name": "Icecream - Dstk Super Cone",
+    "description": "Nondisplaced supracondylar fracture without intracondylar extension of lower end of right femur, subsequent encounter for open fracture type I or II with malunion",
+    "price": "$48.16",
+    "group": "Health",
+    "createdAt": 1647482544000
   },
   {
-    "id": "866c6d8a-30b7-47c7-8709-68e2f4f8b11e",
-    "product": "Split Peas - Green, Dry",
-    "description": "Displaced fracture of medial condyle of right femur",
-    "quantity": 9,
-    "sellDate": 1656461800000
+    "id": "397338cc-9a68-43dd-a491-c760450939bf",
+    "name": "Veal - Liver",
+    "description": "Type II occipital condyle fracture, unspecified side, subsequent encounter for fracture with delayed healing",
+    "price": "$2.69",
+    "group": "Movies",
+    "createdAt": 1632355273000
   },
   {
-    "id": "03743ec0-f7a7-4de2-a6b9-a32f8a331b23",
-    "product": "Pork Ham Prager",
-    "description": "Keratoconus, unspecified, bilateral",
-    "quantity": 5,
-    "sellDate": 1632744622000
+    "id": "4b19ef0a-51e6-40a1-b9ba-ef6f1cac5cb0",
+    "name": "Flounder - Fresh",
+    "description": "Corrosion of second degree of left upper arm, subsequent encounter",
+    "price": "$34.40",
+    "group": "Baby",
+    "createdAt": 1633445288000
   },
   {
-    "id": "473cc341-5faa-4d9b-bfa3-9d6db614af61",
-    "product": "Milk - Buttermilk",
-    "description": "Subluxation of proximal interphalangeal joint of right ring finger",
-    "quantity": 6,
-    "sellDate": 1657661562000
+    "id": "c1094082-38a7-4c39-b6af-8967361dfedd",
+    "name": "Muffin - Mix - Mango Sour Cherry",
+    "description": "Displaced other fracture of tuberosity of left calcaneus",
+    "price": "$45.25",
+    "group": "Movies",
+    "createdAt": 1646637766000
   },
   {
-    "id": "0b530c96-50e8-4a6e-bf81-d9fa781032a9",
-    "product": "Potatoes - Pei 10 Oz",
-    "description": "Superficial foreign body of breast, left breast, subsequent encounter",
-    "quantity": 3,
-    "sellDate": 1664300140000
+    "id": "fbb432ad-22fa-4d2e-b530-14606230407a",
+    "name": "Container - Foam Dixie 12 Oz",
+    "description": "Stable burst fracture of second thoracic vertebra, initial encounter for closed fracture",
+    "price": "$13.17",
+    "group": "Games",
+    "createdAt": 1651835938000
   },
   {
-    "id": "0032e1f0-f20a-449b-9d95-2453d6445645",
-    "product": "Lobster - Tail, 3 - 4 Oz",
-    "description": "Laceration with foreign body of left front wall of thorax with penetration into thoracic cavity, initial encounter",
-    "quantity": 2,
-    "sellDate": 1638331862000
-  },
-  {
-    "id": "77786518-28e5-48ad-9602-840bd2a6cb5e",
-    "product": "Chives - Fresh",
-    "description": "Unspecified injury of extensor muscle, fascia and tendon of left middle finger at wrist and hand level, initial encounter",
-    "quantity": 10,
-    "sellDate": 1635778605000
-  },
-  {
-    "id": "b7a065c0-f8d9-458e-aee9-d8a923a4aa89",
-    "product": "Duck - Whole",
-    "description": "Puncture wound without foreign body, left thigh, sequela",
-    "quantity": 4,
-    "sellDate": 1654216628000
-  },
-  {
-    "id": "56e5f9ab-6ca7-4e9f-8121-68e1dcf78aee",
-    "product": "Energy Drink Red Bull",
-    "description": "Polyarthritis due to other bacteria",
-    "quantity": 5,
-    "sellDate": 1653845639000
-  },
-  {
-    "id": "054a72a3-a1a2-4819-8af2-f6eb10beff23",
-    "product": "Dill Weed - Dry",
-    "description": "Passenger in three-wheeled motor vehicle injured in noncollision transport accident in nontraffic accident, initial encounter",
-    "quantity": 6,
-    "sellDate": 1651288331000
-  },
-  {
-    "id": "92744a00-0b96-45a6-a5c3-1c6898e71457",
-    "product": "Mushroom - Enoki, Dry",
-    "description": "Unspecified intracapsular fracture of left femur, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion",
-    "quantity": 7,
-    "sellDate": 1642643329000
-  },
-  {
-    "id": "eebe91a9-b960-4390-84dd-04e03f31117e",
-    "product": "Cod - Salted, Boneless",
-    "description": "Blister (nonthermal) of right elbow, sequela",
-    "quantity": 3,
-    "sellDate": 1637350002000
-  },
-  {
-    "id": "eb09881b-8be8-4eab-b9e8-cd6157a6290a",
-    "product": "Wine - White, Concha Y Toro",
-    "description": "Leakage of femoral arterial graft (bypass), sequela",
-    "quantity": 8,
-    "sellDate": 1639959425000
-  },
-  {
-    "id": "53f397a3-bccd-419c-90ee-b6be9ddb249b",
-    "product": "Cheese - Grana Padano",
-    "description": "Unspecified contact dermatitis due to food in contact with skin",
-    "quantity": 1,
-    "sellDate": 1652804965000
-  },
-  {
-    "id": "283900d9-8d32-4460-b2d9-7a952f2a0997",
-    "product": "Icecream - Dstk Cml And Fdg",
-    "description": "Acute miliary tuberculosis of a single specified site",
-    "quantity": 1,
-    "sellDate": 1661776964000
-  },
-  {
-    "id": "5873aede-3faf-43cc-9043-2a8682f5aec7",
-    "product": "Beets",
-    "description": "Maternal care for (suspected) damage to fetus from alcohol",
-    "quantity": 10,
-    "sellDate": 1640068652000
-  },
-  {
-    "id": "1eff7192-c551-474b-a3b0-aa21169d6ad6",
-    "product": "Compound - Rum",
-    "description": "Blister (nonthermal) of right eyelid and periocular area",
-    "quantity": 4,
-    "sellDate": 1653166330000
-  },
-  {
-    "id": "fef4ed3b-f20f-456a-bab4-6a920e36a0f0",
-    "product": "Wine - Penfolds Koonuga Hill",
-    "description": "Unspecified fracture of fourth thoracic vertebra, subsequent encounter for fracture with delayed healing",
-    "quantity": 5,
-    "sellDate": 1662691915000
-  },
-  {
-    "id": "241fc19f-d268-42d2-857f-f4240e5f1af7",
-    "product": "Pork - Liver",
-    "description": "Contusion, laceration, and hemorrhage of brainstem with loss of consciousness of 31 minutes to 59 minutes, subsequent encounter",
-    "quantity": 10,
-    "sellDate": 1643340655000
-  },
-  {
-    "id": "8d75b8e3-ec2d-4ea3-9ce7-5ce97869d8be",
-    "product": "Pickle - Dill",
-    "description": "Displaced segmental fracture of shaft of ulna, left arm, initial encounter for open fracture type IIIA, IIIB, or IIIC",
-    "quantity": 1,
-    "sellDate": 1644132824000
-  },
-  {
-    "id": "34df2119-6509-4458-a107-30c5e3688123",
-    "product": "Capers - Ox Eye Daisy",
-    "description": "Nondisplaced segmental fracture of shaft of left tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion",
-    "quantity": 3,
-    "sellDate": 1662008160000
-  },
-  {
-    "id": "d714cd6e-31f5-42fd-9611-b62527b4c786",
-    "product": "Onions - Cooking",
-    "description": "Encounter for examination and observation following alleged physical abuse",
-    "quantity": 9,
-    "sellDate": 1637162186000
-  },
-  {
-    "id": "a60e43c1-1bba-4c87-abbf-c312c5074356",
-    "product": "Dc Hikiage Hira Huba",
-    "description": "Partial traumatic metacarpophalangeal amputation of left index finger, initial encounter",
-    "quantity": 8,
-    "sellDate": 1634630042000
-  },
-  {
-    "id": "cbec0097-0a1a-4cfa-a511-c1ed28bf8323",
-    "product": "Yogurt - Peach, 175 Gr",
-    "description": "Anaplastic large cell lymphoma, ALK-negative, intrathoracic lymph nodes",
-    "quantity": 4,
-    "sellDate": 1643678497000
-  },
-  {
-    "id": "8d5268ff-c93d-4871-b51e-de6edd47292d",
-    "product": "Apron",
-    "description": "Acute leukemia of unspecified cell type not having achieved remission",
-    "quantity": 4,
-    "sellDate": 1658315192000
-  },
-  {
-    "id": "eeedf8e9-b564-4161-b4cf-2b69cc710601",
-    "product": "Shortbread - Cookie Crumbs",
-    "description": "Striking against or struck by other sports equipment, sequela",
-    "quantity": 4,
-    "sellDate": 1639017732000
-  },
-  {
-    "id": "839c610d-7af9-4316-9a5b-4b648053a9bd",
-    "product": "Doilies - 12, Paper",
-    "description": "Other pre-existing diabetes mellitus in pregnancy, first trimester",
-    "quantity": 8,
-    "sellDate": 1662032693000
-  },
-  {
-    "id": "8a463317-3a03-4781-9ed4-5e940f92b3a7",
-    "product": "Cheese - Havarti, Roasted Garlic",
-    "description": "Other osteonecrosis of left carpus",
-    "quantity": 6,
-    "sellDate": 1642406637000
-  },
-  {
-    "id": "c8c38f52-95e4-47b5-a4dc-8fca223cee99",
-    "product": "Beets - Mini Golden",
-    "description": "Air transport accident involving military aircraft",
-    "quantity": 10,
-    "sellDate": 1642729245000
-  },
-  {
-    "id": "36331a7a-f057-4cb0-837f-22e0ebd0c955",
-    "product": "Bagel - 12 Grain Preslice",
-    "description": "Displaced associated transverse-posterior fracture of right acetabulum, subsequent encounter for fracture with delayed healing",
-    "quantity": 2,
-    "sellDate": 1639533135000
-  },
-  {
-    "id": "5cd9d40a-9b8d-4cfc-897b-efb194a4fda7",
-    "product": "Ice Cream - Strawberry",
-    "description": "Immunization not carried out because of contraindication",
-    "quantity": 8,
-    "sellDate": 1651849500000
-  },
-  {
-    "id": "754b5139-9c0f-4936-a36b-69821f57ff1c",
-    "product": "Rabbit - Frozen",
-    "description": "Other fish poisoning, assault, initial encounter",
-    "quantity": 9,
-    "sellDate": 1645349030000
-  },
-  {
-    "id": "7126f3eb-37bf-4388-9a22-8250b220348a",
-    "product": "Ice Cream Bar - Oreo Cone",
-    "description": "Labor and delivery complicated by prolapse of cord, not applicable or unspecified",
-    "quantity": 4,
-    "sellDate": 1654079518000
-  },
-  {
-    "id": "0ad32ee6-8130-4525-a202-d360dc322142",
-    "product": "Wine - Chardonnay South",
-    "description": "Contact with hot drinks",
-    "quantity": 6,
-    "sellDate": 1649758872000
-  },
-  {
-    "id": "2d7da4db-3a33-45c8-a2be-34ca697e90e9",
-    "product": "Wine - Domaine Boyar Royal",
-    "description": "Cervicobrachial syndrome",
-    "quantity": 5,
-    "sellDate": 1663133986000
-  },
-  {
-    "id": "90cb11c1-afe4-40c0-9161-6132b04db6a2",
-    "product": "Tarragon - Fresh",
-    "description": "Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced mood disorder",
-    "quantity": 10,
-    "sellDate": 1637527588000
-  },
-  {
-    "id": "32f773bc-a703-48e6-843b-f386fe2c63a9",
-    "product": "Veal - Bones",
-    "description": "Nondisplaced subtrochanteric fracture of left femur, subsequent encounter for open fracture type I or II with malunion",
-    "quantity": 3,
-    "sellDate": 1652131657000
-  },
-  {
-    "id": "5bf7d74a-1f39-49bb-aa04-54b502795f3e",
-    "product": "Lid - 10,12,16 Oz",
-    "description": "Unspecified open wound of left thumb with damage to nail, initial encounter",
-    "quantity": 7,
-    "sellDate": 1643697940000
-  },
-  {
-    "id": "f9c2e4ee-b8fa-4579-81ef-6752c8049c60",
-    "product": "Basil - Fresh",
-    "description": "Unspecified injury of dorsal artery of right foot, subsequent encounter",
-    "quantity": 9,
-    "sellDate": 1661545907000
-  },
-  {
-    "id": "31113495-6159-4710-8f85-77f73cbed0fa",
-    "product": "Spic And Span All Purpose",
-    "description": "Displaced fracture of cuboid bone of left foot, sequela",
-    "quantity": 4,
-    "sellDate": 1641690159000
-  },
-  {
-    "id": "f2ec9a55-a72b-4d71-9d2f-23303458614e",
-    "product": "Sweet Pea Sprouts",
-    "description": "Fracture of bony thorax, part unspecified, initial encounter for open fracture",
-    "quantity": 7,
-    "sellDate": 1659536325000
-  },
-  {
-    "id": "4b5ee459-e0c7-4df3-b6dc-7cfa54b557a7",
-    "product": "Bag - Regular Kraft 20 Lb",
-    "description": "Malignant neoplasm of other specified male genital organs",
-    "quantity": 1,
-    "sellDate": 1654861449000
-  },
-  {
-    "id": "a2b71415-d59d-4ae1-977c-c054be20bb65",
-    "product": "Capers - Pickled",
-    "description": "Poisoning by pertussis vaccine, including combinations with a pertussis component, intentional self-harm, initial encounter",
-    "quantity": 6,
-    "sellDate": 1663224314000
-  },
-  {
-    "id": "b2fa8039-a991-4d0a-8ee6-a0457293ad5a",
-    "product": "Lamb - Shoulder, Boneless",
-    "description": "Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of other part of foot",
-    "quantity": 10,
-    "sellDate": 1651922437000
-  },
-  {
-    "id": "7a9d9558-58e8-46bf-bb2d-cdafcf8b2bd8",
-    "product": "Cheese - La Sauvagine",
-    "description": "Contact with hot drinks, initial encounter",
-    "quantity": 9,
-    "sellDate": 1662188879000
-  },
-  {
-    "id": "8c50a125-3e36-445f-9656-8b5b168b5219",
-    "product": "Creamers - 10%",
-    "description": "Crushing injury of right great toe, initial encounter",
-    "quantity": 4,
-    "sellDate": 1656459532000
-  },
-  {
-    "id": "88733caa-379d-4b04-a611-d9dbddbbee78",
-    "product": "Oil - Olive, Extra Virgin",
-    "description": "Poisoning by chloramphenicol group, intentional self-harm, initial encounter",
-    "quantity": 7,
-    "sellDate": 1634888154000
-  },
-  {
-    "id": "b9f18fa8-0205-4a5f-adc6-798fa8289936",
-    "product": "Phyllo Dough",
-    "description": "Other contact with turkey, initial encounter",
-    "quantity": 2,
-    "sellDate": 1648358414000
-  },
-  {
-    "id": "687a5989-3ed7-4896-b3a8-428e635cccf9",
-    "product": "Beer - Rickards Red",
-    "description": "Other stimulant dependence with stimulant-induced psychotic disorder with delusions",
-    "quantity": 1,
-    "sellDate": 1659187667000
-  },
-  {
-    "id": "97946031-8e2f-46ad-9e5d-f56140583257",
-    "product": "Beef - Tenderlion, Center Cut",
-    "description": "Pre-existing type 1 diabetes mellitus, in the puerperium",
-    "quantity": 8,
-    "sellDate": 1644541516000
-  },
-  {
-    "id": "e4b8e5e7-bf26-47d7-8b03-9ac3d2a01db0",
-    "product": "Yogurt - Assorted Pack",
-    "description": "Stiffness of unspecified ankle, not elsewhere classified",
-    "quantity": 1,
-    "sellDate": 1634964374000
-  },
-  {
-    "id": "8c62c116-39cd-45b5-8ae7-aad86fb621b4",
-    "product": "Cookie Dough - Chunky",
-    "description": "Person on outside of bus injured in collision with pedal cycle in nontraffic accident, subsequent encounter",
-    "quantity": 9,
-    "sellDate": 1660508805000
-  },
-  {
-    "id": "743cba1c-ec8d-4ce1-a28c-12394a7d18f7",
-    "product": "Cheese - Blue",
-    "description": "Contusion of unspecified shoulder, subsequent encounter",
-    "quantity": 5,
-    "sellDate": 1632888331000
-  },
-  {
-    "id": "510ab77d-04aa-4770-84d1-3a21341c7529",
-    "product": "Soup - Knorr, Classic Can. Chili",
-    "description": "Contusion of unspecified index finger with damage to nail, subsequent encounter",
-    "quantity": 1,
-    "sellDate": 1662932527000
-  },
-  {
-    "id": "1c4571fd-c6d3-491b-8698-a1329511e65d",
-    "product": "Lamb - Whole, Fresh",
-    "description": "Idiopathic chronic gout",
-    "quantity": 6,
-    "sellDate": 1630994543000
-  },
-  {
-    "id": "e689f33d-7982-457c-aad0-5151d3d47e9e",
-    "product": "Table Cloth 90x90 White",
-    "description": "Other fracture of shaft of unspecified humerus, initial encounter for closed fracture",
-    "quantity": 9,
-    "sellDate": 1635155337000
-  },
-  {
-    "id": "c73ad108-fd7a-4ef3-b112-78910c2f2520",
-    "product": "Dikon",
-    "description": "Corrosion of first degree of right wrist, sequela",
-    "quantity": 8,
-    "sellDate": 1631001705000
-  },
-  {
-    "id": "a8e0cd02-817a-4d0c-a350-509ea1bcfe63",
-    "product": "Sprouts - Alfalfa",
-    "description": "Osteonecrosis in diseases classified elsewhere, left ankle and foot",
-    "quantity": 4,
-    "sellDate": 1646588385000
-  },
-  {
-    "id": "32003bbf-d000-429b-ba24-deb1f6687d6e",
-    "product": "Cut Wakame - Hanawakaba",
-    "description": "Puncture wound with foreign body of left index finger with damage to nail, sequela",
-    "quantity": 9,
-    "sellDate": 1632389741000
-  },
-  {
-    "id": "1984b245-e111-4095-9bcc-b940511e7de8",
-    "product": "Sauce - Fish 25 Ozf Bottle",
-    "description": "Complete traumatic amputation at left shoulder joint, sequela",
-    "quantity": 9,
-    "sellDate": 1649287810000
-  },
-  {
-    "id": "dc0e7801-7d56-4b0d-b3bf-dc88270f1056",
-    "product": "Veal - Leg, Provimi - 50 Lb Max",
-    "description": "Corrosion of unspecified degree of forearm",
-    "quantity": 6,
-    "sellDate": 1633443440000
-  },
-  {
-    "id": "707b00c6-e6f1-46b5-aa3e-c59fc1ce56fe",
-    "product": "Truffle Paste",
-    "description": "Nondisplaced fracture of medial malleolus of unspecified tibia, subsequent encounter for open fracture type I or II with nonunion",
-    "quantity": 3,
-    "sellDate": 1638740556000
-  },
-  {
-    "id": "f565db1d-1713-4a4d-95f1-7d6d1f76412d",
-    "product": "Fond - Neutral",
-    "description": "Displaced fracture of neck of right radius, sequela",
-    "quantity": 9,
-    "sellDate": 1631895211000
-  },
-  {
-    "id": "fae4223a-643a-45ae-87b1-da2ac52ed604",
-    "product": "Cabbage - Nappa",
-    "description": "Open bite of unspecified upper arm, subsequent encounter",
-    "quantity": 3,
-    "sellDate": 1635176241000
-  },
-  {
-    "id": "4e22b685-a14e-4886-a35d-c02249d35ae9",
-    "product": "Pop Shoppe Cream Soda",
-    "description": "Stenosis of other vascular prosthetic devices, implants and grafts",
-    "quantity": 7,
-    "sellDate": 1635137410000
-  },
-  {
-    "id": "21a1ffa6-0e56-42be-a82d-213ae689acd9",
-    "product": "Ham - Smoked, Bone - In",
-    "description": "Unspecified injury of unspecified quadriceps muscle, fascia and tendon, sequela",
-    "quantity": 5,
-    "sellDate": 1647659375000
-  },
-  {
-    "id": "24922bc0-4da9-4e29-ad37-cb5bdf45752a",
-    "product": "Sauce - Cranberry",
-    "description": "Nondisplaced supracondylar fracture without intracondylar extension of lower end of right femur, sequela",
-    "quantity": 5,
-    "sellDate": 1653492424000
-  },
-  {
-    "id": "ff9249a6-7374-4d90-a3fe-1cecd70eaee6",
-    "product": "Beer - Camerons Auburn",
-    "description": "Pathological fracture in neoplastic disease, unspecified shoulder, sequela",
-    "quantity": 3,
-    "sellDate": 1647281425000
-  },
-  {
-    "id": "377f3dcc-ab03-4d80-a917-6b45f518114e",
-    "product": "Flour - Bran, Red",
-    "description": "Periprosthetic fracture around internal prosthetic right knee joint, initial encounter",
-    "quantity": 5,
-    "sellDate": 1640283393000
-  },
-  {
-    "id": "73e2c7ba-d516-4ece-89e5-3139ebc0d529",
-    "product": "Liqueur - Melon",
-    "description": "Obstruction due to foreign body accidentally left in body following aspiration, puncture or other catheterization, sequela",
-    "quantity": 2,
-    "sellDate": 1636770384000
+    "id": "8286d839-185a-4483-b68c-0fce671afcd0",
+    "name": "Cheese - Wine",
+    "description": "Poisoning by unspecified drugs, medicaments and biological substances, intentional self-harm, sequela",
+    "price": "$19.80",
+    "group": "Movies",
+    "createdAt": 1623180919000
+  },
+  {
+    "id": "bdf0e146-d3cf-4ff4-8d04-5c15e0317662",
+    "name": "Olives - Nicoise",
+    "description": "Chronic embolism and thrombosis of deep veins of unspecified upper extremity",
+    "price": "$21.90",
+    "group": "Garden",
+    "createdAt": 1650919602000
+  },
+  {
+    "id": "45577f88-d63d-4bc9-9f3d-edb63c50cc46",
+    "name": "Salami - Genova",
+    "description": "Displaced transverse fracture of shaft of unspecified femur, subsequent encounter for open fracture type I or II with nonunion",
+    "price": "$36.20",
+    "group": "Outdoors",
+    "createdAt": 1623666832000
+  },
+  {
+    "id": "42b32c83-a345-438d-af5c-832bd8080280",
+    "name": "Sauce - Apple, Unsweetened",
+    "description": "Subsequent ST elevation (STEMI) myocardial infarction of anterior wall",
+    "price": "$41.13",
+    "group": "Garden",
+    "createdAt": 1651249111000
+  },
+  {
+    "id": "29437374-e1c7-4a0e-b69a-88bf5909b2d1",
+    "name": "Bread - Frozen Basket Variety",
+    "description": "Traumatic rupture of collateral ligament of other finger at metacarpophalangeal and interphalangeal joint, subsequent encounter",
+    "price": "$25.69",
+    "group": "Jewelry",
+    "createdAt": 1641793290000
+  },
+  {
+    "id": "4e570b4a-20af-4f30-98ee-23eeda1d620b",
+    "name": "Tuna - Salad Premix",
+    "description": "Primary osteoarthritis, unspecified site",
+    "price": "$1.08",
+    "group": "Automotive",
+    "createdAt": 1652113026000
+  },
+  {
+    "id": "f085cc6f-1a44-47da-b1c4-4486a4379b1a",
+    "name": "Tuna - Loin",
+    "description": "Other specified fracture of unspecified ischium, subsequent encounter for fracture with delayed healing",
+    "price": "$34.13",
+    "group": "Tools",
+    "createdAt": 1651892785000
+  },
+  {
+    "id": "b941e249-fd0f-4869-990d-b79338c7f146",
+    "name": "Pastry - Butterscotch Baked",
+    "description": "Ankyloglossia",
+    "price": "$4.73",
+    "group": "Health",
+    "createdAt": 1630234589000
+  },
+  {
+    "id": "d4d45c30-0a79-4dc5-9fae-cabd10265e23",
+    "name": "Easy Off Oven Cleaner",
+    "description": "Displaced fracture of shaft of fifth metacarpal bone, right hand, subsequent encounter for fracture with malunion",
+    "price": "$8.48",
+    "group": "Books",
+    "createdAt": 1640457746000
+  },
+  {
+    "id": "117101dc-bb79-4965-b3e5-992ffe0bd36f",
+    "name": "Sausage - Blood Pudding",
+    "description": "Displaced fracture of lateral malleolus of unspecified fibula",
+    "price": "$29.87",
+    "group": "Music",
+    "createdAt": 1645555568000
+  },
+  {
+    "id": "fa83a713-a65f-4a82-baca-95d886c0251f",
+    "name": "Water - Mineral, Carbonated",
+    "description": "Laceration with foreign body of right hand",
+    "price": "$26.83",
+    "group": "Home",
+    "createdAt": 1635517362000
+  },
+  {
+    "id": "f5237fce-b55a-4787-8bed-70f1fdb98fe8",
+    "name": "Cheese - Cambozola",
+    "description": "Other disorders of electrolyte and fluid balance, not elsewhere classified",
+    "price": "$20.30",
+    "group": "Clothing",
+    "createdAt": 1623087011000
+  },
+  {
+    "id": "561e061a-4633-45ea-aeec-207817644b1e",
+    "name": "Coffee Caramel Biscotti",
+    "description": "Unspecified open wound of ankle",
+    "price": "$2.31",
+    "group": "Jewelry",
+    "createdAt": 1645379534000
   }
 ]

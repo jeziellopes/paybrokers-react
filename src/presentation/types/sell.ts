@@ -1,6 +1,10 @@
 export type Sell = {
-  id: string
-  product: string
-  quantity: number
+  quantidade: number
   sellDate: number
+  sellDateFormatted: string
+}
+
+export type MonthSell = {
+  quantidade: number
+  sellDateFormatted: string
 }

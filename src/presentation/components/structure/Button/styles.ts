@@ -17,6 +17,16 @@ export const Button = styled.button<T.ButtonProps>`
     padding: 0;
     width: 100%;
 
+    &:hover {
+      background: ${({ theme }) => theme.colors.main.primaryLight};
+      color: ${({ theme }) => theme.colors.main.lightWhite};
+    }
+
+    &:active {
+      background: ${({ theme }) => theme.colors.main.primaryDark};
+      transform: translateY(1px);
+    }
+
     @media only screen and (max-width: 700px) {
       height: 5vh;
     }

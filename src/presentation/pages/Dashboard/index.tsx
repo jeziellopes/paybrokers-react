@@ -1,3 +1,4 @@
+import { ProductsChart, SellsChart } from '@presentation/components/context'
 import { withLayout } from '@presentation/components/context/Layout'
 import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
@@ -15,7 +16,12 @@ const Dashboard: React.FC = () => {
     navigate('/sign-in')
   })
 
-  return <S.Container>DASHBOARD</S.Container>
+  return (
+    <S.Container>
+      <ProductsChart title="Quantidade de Produtos Por Grupo" />
+      <SellsChart title="Total de Vendas Por Dia" />
+    </S.Container>
+  )
 }
 
 export default withLayout(Dashboard)

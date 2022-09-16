@@ -19,7 +19,8 @@ export const Logo = styled.img`
 `
 
 export const Form = styled.form`
-  border: 2px ${({ theme }) => theme.colors.main.primary} solid;
+  background: ${({ theme }) => theme.colors.main.background};
+  /* border: 2px ${({ theme }) => theme.colors.main.primary} solid; */
   border-radius: 16px;
   box-shadow: ${({ theme }) => theme.shadows.form};
   padding: 24px;

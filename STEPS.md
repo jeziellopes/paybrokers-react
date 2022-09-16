@@ -3,3 +3,11 @@
 - [x] Template Pages (SignIn, Dashboard, Products)
 - [x] AuthContext with authentication redirects
 - [x] SignIn with Form
+- [x] Datasources and Repositories + Tests
+- [x] Auth redirects, Page NotFound
+- [x] Menu, Logout redirect
+- [x] Fake Products and Sells + Providers
+- [x] Recharts + Products and Sell Charts
+- [ ] List Products with table
+- [ ] Remove product action
+- [ ] Add product action

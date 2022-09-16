@@ -12,7 +12,9 @@ export const withLayout = (WrappedComponent: any) => {
     return (
       <>
         <S.Header>
-          <S.Logo src={logoUrl} />
+          <S.LogoWrapper onClick={() => navigate('/')}>
+            <S.Logo src={logoUrl} />
+          </S.LogoWrapper>
           <S.Profile>Jeziel Carvalho</S.Profile>
         </S.Header>
         <S.Body>
@@ -25,7 +27,9 @@ export const withLayout = (WrappedComponent: any) => {
               <S.MenuItem onClick={() => logout()}>Logout</S.MenuItem>
             </S.Menu>
           </S.Aside>
-          <WrappedComponent {...props} />
+          <S.Content>
+            <WrappedComponent {...props} />
+          </S.Content>
         </S.Body>
       </>
     )
