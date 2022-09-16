@@ -6,7 +6,8 @@ import ProductsActions from '../ProductsActions'
 
 const columns: GridColDef[] = [
   { field: 'id', headerName: 'ID', flex: 1 },
-  { field: 'name', headerName: 'First name', flex: 1 },
+  { field: 'name', headerName: 'Nome', flex: 1 },
+  { field: 'price', headerName: 'Valor', flex: 1 },
   { field: 'group', headerName: 'Grupo', flex: 1 },
   {
     field: 'action',
