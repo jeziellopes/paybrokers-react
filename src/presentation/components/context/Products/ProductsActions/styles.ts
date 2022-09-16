@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
-  padding: 80px;
+  width: 100%;
+`
+
+export const ActionWrapper = styled.div`
+  cursor: pointer;
 `

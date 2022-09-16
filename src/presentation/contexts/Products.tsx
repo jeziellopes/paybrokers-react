@@ -9,6 +9,7 @@ export type ProductsContextType = {
   loading: boolean
   products: Product[] | null
   productQuantityByGroup: T.ProductQuantityByGroup[] | null
+  onClickRemove: (id: string) => void
 }
 
 export const ProductsContext = createContext<ProductsContextType>({
@@ -16,6 +17,7 @@ export const ProductsContext = createContext<ProductsContextType>({
   loading: false,
   products: null,
   productQuantityByGroup: null,
+  onClickRemove: () => undefined,
 })
 
 export const ProductsProvider = ({ children }: T.Props) => {
@@ -49,9 +51,18 @@ export const ProductsProvider = ({ children }: T.Props) => {
     )
   }, [products])
 
+  const onClickRemove = (id: string) =>
+    setProducts((prev) => prev?.filter((product) => product.id !== id) || [])
+
   return (
     <ProductsContext.Provider
-      value={{ error, loading, products, productQuantityByGroup }}
+      value={{
+        error,
+        loading,
+        products,
+        productQuantityByGroup,
+        onClickRemove,
+      }}
     >
       {children}
     </ProductsContext.Provider>
