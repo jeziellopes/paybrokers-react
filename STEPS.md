@@ -11,4 +11,5 @@
 - [x] List Products with table
 - [x] Remove product action
 - [x] View product action
-- [ ] Add new product feature
+- [x] New product feature
+- [x] Login check feature 

@@ -36,6 +36,11 @@ export const Form = styled.form`
 export const ActionWrapper = styled.div`
   display: flex;
   justify-content: center;
-  margin: 8px 0 0;
+  margin: 8px 0;
   width: 100%;
+`
+
+export const Error = styled.span`
+  color: red;
+  font-size: 12px;
 `

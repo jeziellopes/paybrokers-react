@@ -47,3 +47,12 @@
   # Start development server
   yarn dev
 ```
+
+### Authentication
+
+```bash
+
+  email: 'admin@paybrokers.com.br'
+  passsword: '123456'
+  
+```

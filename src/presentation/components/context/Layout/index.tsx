@@ -7,7 +7,7 @@ import * as S from './styles'
 
 export const withLayout = (WrappedComponent: any) => {
   return function LayoutProvider({ ...props }) {
-    const { logout } = useAuthContext()
+    const { logout, login } = useAuthContext()
     const navigate = useNavigate()
     return (
       <>
@@ -15,7 +15,7 @@ export const withLayout = (WrappedComponent: any) => {
           <S.LogoWrapper onClick={() => navigate('/')}>
             <S.Logo src={logoUrl} />
           </S.LogoWrapper>
-          <S.Profile>Jeziel Carvalho</S.Profile>
+          <S.Profile>{login.email.split('@').shift()?.toUpperCase()}</S.Profile>
         </S.Header>
         <S.Body>
           <S.Aside>
