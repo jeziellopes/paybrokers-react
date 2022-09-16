@@ -1,4 +1,9 @@
-import { AuthProvider, ProductsProvider, SellsProvider } from './contexts'
+import {
+  AuthProvider,
+  ModalProvider,
+  ProductsProvider,
+  SellsProvider,
+} from './contexts'
 import { ComposeProviders } from './providers'
 import { ThemeProvider } from './providers/theme'
 import AppRoutes from './routes'
@@ -9,7 +14,13 @@ function App() {
     <>
       <GlobalStyles />
       <ComposeProviders
-        with={[SellsProvider, ProductsProvider, AuthProvider, ThemeProvider]}
+        with={[
+          ModalProvider,
+          SellsProvider,
+          ProductsProvider,
+          AuthProvider,
+          ThemeProvider,
+        ]}
       >
         <AppRoutes />
       </ComposeProviders>
