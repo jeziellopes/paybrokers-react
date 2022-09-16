@@ -1,7 +1,7 @@
 
 # Paybrokers Dashboard
 
-**Paybrokers Dashboard** is **ReactJS/Vite** App with **TypeScript**, **Styled-Components**, **ESLint** and **Tests** applying concepts from **Clean Architecture** and **Clean Code**
+**Paybrokers Dashboard** is **ReactJS/Vite** App with **TypeScript**, **Styled-Components**, **Material-UI**, **React Hook Form**, **ESLint** and **Tests** applying concepts from **Clean Architecture** and **Clean Code**
 
 ![Screen](./preview.png)
 
@@ -56,3 +56,12 @@
   passsword: '123456'
   
 ```
+
+---
+
+### Telas
+
+#### Dashboard
+![Screen](./preview2.png)
+#### Produtos
+![Screen](./preview3.png)

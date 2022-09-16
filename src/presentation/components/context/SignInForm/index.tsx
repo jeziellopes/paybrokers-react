@@ -1,3 +1,4 @@
+import { correctLogin } from '@main/config'
 import { logoUrl } from '@presentation/assets'
 import { useAuthContext } from '@presentation/contexts'
 import React from 'react'
@@ -22,14 +23,14 @@ const SignInForm: React.FC = () => {
       <CF.InputText
         name="email"
         placeholder="informe seu e-mail"
-        defaultValue="admin@paybrokers.com.br"
+        defaultValue={correctLogin.email} // for tests
         onChange={handleChangeLogin}
       ></CF.InputText>
       <CF.InputText
         name="password"
         type="password"
         placeholder="informe sua senha"
-        defaultValue="123456"
+        defaultValue={correctLogin.password} // for tests
         onChange={handleChangeLogin}
       ></CF.InputText>
       <CF.Link to="/sign-in">Esqueci a senha</CF.Link>
